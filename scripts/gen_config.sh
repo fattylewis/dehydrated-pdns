@@ -22,7 +22,6 @@ CHAINCACHE=/chains
 CERTDIR=/certs
 ACCOUNTDIR=/accounts
 DOMAINS_TXT=/home/dehydrated/domains.txt
-CA="https://acme-staging-v02.api.letsencrypt.org/directory"
 EOF
 }
 
