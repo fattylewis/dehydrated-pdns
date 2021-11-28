@@ -1,6 +1,6 @@
-# Dehydrated with AWS CLI in a Docker Container
+# Dehydrated with PDNS hook in a Docker Container
 
-[Dehydrated](https://dehydrated.io/) is a very simple shell script that implements the letsencrypt/acme client protocol and impressively facilitates an easy DNS based challenge to [Route 53](https://aws.amazon.com/route53/), the benefits of the DNS challenge is that you will not expose any services to the internet, and you can even run this as part of a CI/CD pipeline without having any servers.
+[Dehydrated](https://dehydrated.io/) is a very simple shell script that implements the letsencrypt/acme client protocol and impressively facilitates an easy DNS based challenge to your PDNS servers, the benefits of the DNS challenge is that you will not expose any services to the internet, and you can even run this as part of a CI/CD pipeline without having any servers.
 
 In particular, this container is leveraged in a [Concourse](https://concourse-ci.org/) pipeline to get the necessary publicly trusted certificates that a [PCF](https://pivotal.io/platform) installation would need without exposing anything.
 
